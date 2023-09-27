@@ -11,23 +11,23 @@ const Nav = () => {
   };
 
   return (
-    <nav className="bg-slate-400">
-      <ul className="flex items-center justify-center">
-        <li>Home</li>
-        <li>About</li>
+    <nav className="menubar-bg-color py-12">
+      <ul className="md:flex md:items-center md:justify-center">
+        <li className="ms-6 text-lg cursor-pointer menubar-menu-text-color">Home</li>
+        <li className="ms-6 text-lg cursor-pointer menubar-menu-text-color">About</li>
         <li>
           <div className="dropdown">
-            <button onClick={toggleSubMenu}>Services</button>
+            <button onClick={toggleSubMenu} className="ms-6 text-lg menubar-menu-text-color">Services</button>
             {isSubMenuVisible && (
               <ul className="submenu">
-                <li>Service 1</li>
-                <li>Service 2</li>
-                <li>Service 3</li>
+                <li className="ms-6 cursor-pointer text-sm menubar-sub-menu-text-color">JavaScript</li>
+                <li className="ms-6 cursor-pointer text-sm menubar-sub-menu-text-color">Python</li>
+                <li className="ms-6 cursor-pointer text-sm menubar-sub-menu-text-color">MERN Stack</li>
               </ul>
             )}
           </div>
         </li>
-        <li>Contact</li>
+        <li className="ms-6 text-lg cursor-pointer menubar-menu-text-color">Contact</li>
       </ul>
     </nav>
   );
