@@ -1,6 +1,7 @@
 //import { useState } from 'react'
 
 import "./App.css";
+import ImageSlider from "./components/Home/ImageSlider";
 import Nav from "./components/Home/Nav";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
   return (
     <>
       <Nav />
+      <ImageSlider/>
     </>
   );
 }
