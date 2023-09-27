@@ -31,9 +31,9 @@ const ImageSlider = () => {
 
   return (
     <div className="image-slider flex items-center justify-center slider-bg-color py-6">
-      <button onClick={prevSlide}>Previous</button>
-      <div ><img className="rounded-md" src={images[currentIndex]} alt={`Image ${currentIndex + 1}`} /></div>
-      <button onClick={nextSlide}>Next</button>
+      <button className="" onClick={prevSlide}><span className="text-slate-50">Previous</span></button>
+      <img className="rounded-md" src={images[currentIndex]} alt={`Image ${currentIndex + 1}`} />
+      <button className="" onClick={nextSlide}><span className="text-slate-50">Next</span></button>
     </div>
   );
 };
