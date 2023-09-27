@@ -11,8 +11,8 @@ const Nav = () => {
   };
 
   return (
-    <nav>
-      <ul className="navbar">
+    <nav className="bg-slate-400">
+      <ul className="flex items-center justify-center">
         <li>Home</li>
         <li>About</li>
         <li>
