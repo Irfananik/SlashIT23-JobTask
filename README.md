@@ -1,8 +1,17 @@
-# React + Vite
+# SlashIT23-JobTask - 2023
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h3> Technologies </h3>
+- &nbsp; HTML <br>
+- &nbsp; CSS <br>
+- &nbsp; Java Script (JS) <br>
+- &nbsp; ReactJs <br>
+- &nbsp; Vite <br>
+- &nbsp; GitHub <br>
+- &nbsp; Netlify <br>
+- &nbsp; VS code editor <br>
 
-Currently, two official plugins are available:
+<br>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* [Live site link](https://slashit23-jobtask.netlify.app/ "more info")
+
+***Thank you so much for visiting my GitHub!***
